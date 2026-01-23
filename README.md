@@ -1,4 +1,12 @@
-# ZigStrike
+### ⚙️ Coming Soon
+
+This current version might contains some bugs here and there!, therefore, I am hard at work testing a new version of this tool 🛠️  
+Once everything checks out, it’ll be released for everyone to use.
+
+Thanks for hanging tight! ⏳ 
+
+
+# ZigStrike 
 
 <img src="https://github.com/0xsp-SRD/0xsp.com/blob/main/images/3e209efa-4228-4119-b9dc-590a0aa183cb.jpeg" width=50% height=50% align="center">
 
@@ -40,12 +48,6 @@ ZigStrike is a robust shellcode loader developed in Zig, offering a variety of i
 - Python 3.x (for the web interface)
 - Flask
 
-## Article 
-
-The following article is released for ZigStrike highlighting the features and showcase the capabilities to bypass advanced security solutions. 
-
-https://kpmg.com/nl/en/home/insights/2024/12/zig-strike-the-ultimate-toolkit-for-payload-creation-and-evasion.html
-
 
 ## Installation 
 
@@ -54,23 +56,6 @@ git clone https://github.com/0xsp-SRD/ZigStrike/
 cd ZigStrike/App/ 
 python3 App.py 
 ```
-
-## Docker 
-you have problem running it? you can run it via docker. 
-
-```
-git clone https://github.com/0xsp-SRD/ZigStrike/
-cd ZigStrike/
-
-# Build the image
-docker build -t zigstrike .
-
-# Run the container
-docker run -p 5002:5002 zigstrike
-
-```
-## Pending feature 
-* [ 🔺 ] Direct Syscalls. 
 
 ## Reporting Bugs or Issues
 
